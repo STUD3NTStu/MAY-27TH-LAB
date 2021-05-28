@@ -59,7 +59,7 @@ replace all instances of the questionmark with spaces. Then, count all of the in
 Pseudo code:
 print("Enter any number of words only separated by: ?.")
 x equals input()
-print('The final sentence is:\n', x.replace('?', ' '), '\n' 'and there are', x.count('?')+1, 'words in the sentence')
+print('The final sentence is:\n', x.replace('?', ' '), '\n' 'and there are', x.count('?')+1, 'words in the sentence.')
 '''
 '''
 Code:
@@ -67,5 +67,5 @@ Code:
 '''
 print("Enter any number of words only separated by: ?.") #asks the user to input as many words as they like.
 x=input() #assigns the input to a object.
-print('The final sentence is:\n', x.replace('?', ' '), '\n' 'And there are', x.count('?')+1, 'words in the sentence') #takes the input and replaces all instances of '?' with spaces before it counts all instances of the questionmark and adds one for the first word.
+print('The final sentence is:\n', x.replace('?', ' '), '\n' 'And there are', x.count('?')+1, 'words in the sentence.') #takes the input and replaces all instances of '?' with spaces before it counts all instances of the questionmark and adds one for the first word.
 '''
